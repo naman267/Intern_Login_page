@@ -1,0 +1,18 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+
+  width: 700px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 5px;
+  padding: 0px;
+  left: 20%;
+  top: 15%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+.open {
+  transform: translateX(-105%);
+  opacity: 1;
+}
